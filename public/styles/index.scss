@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "reboot";
+@import "aside";
+@import "content";
+html,body{
+  height: 100%;
+}
+body{
+  background: $gray-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+  width: 1000px;
+  height: 100%;
+  background-color: $white;
+}
+
+h2{
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.content-section{
+  width: 70%;
+}
